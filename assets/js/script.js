@@ -14,8 +14,8 @@ class NoteElement extends HTMLElement {
         <h2>${title}</h2>
         <p>${body}</p>
         <div class="note-actions">
-          <button onclick="updateNote('${id}')"><i class="fa-solid fa-user-pen"></i></button>
-          <button onclick="removeNote('${id}')"><i class="fa-solid fa-trash"></i></button>
+          <button onclick="updateNote('${id}')"><i class="fa-solid fa-pencil"></i></button>
+          <button onclick="removeNote('${id}')"><i class="fa-solid fa-whiskey-glass"></i></button>
         </div>
       </div>
     `;
